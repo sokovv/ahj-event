@@ -1,0 +1,50 @@
+:root {
+  --cell-size: 64px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  font-size: 16px;
+}
+
+
+.board-container {
+  display: flex;
+  margin-top:  150px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.cell {
+  position: relative;
+}
+
+.map-tile {
+  background: rgb(255, 255, 255);
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+
+.character {
+  background: url(2dbd01ce16c0fa83cb67.png);
+  background-size: contain;
+  position: absolute;
+  z-index: 99;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
