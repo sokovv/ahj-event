@@ -22,6 +22,7 @@ body {
 }
 
 .board {
+  cursor:  pointer; 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2px;
@@ -39,6 +40,7 @@ body {
 }
 
 .character {
+  cursor:  url(a0bdbe653250577d3663.png), pointer; 
   background: url(2dbd01ce16c0fa83cb67.png);
   background-size: contain;
   position: absolute;
